@@ -1,0 +1,28 @@
+.CardsParksGlobal{
+    /* background-color: rgb(255, 255, 122); */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px;
+}
+
+.card{
+    /* background-color: rgb(202, 255, 174); */
+    border: solid;
+    border-width: 1px;
+    padding: 20px;
+    max-width: 24rem;
+    margin-bottom: 2rem ;
+}
+
+.imgCardPark{
+    width: 100%;
+}
+
+@media screen  and (min-width: 320px){
+    .CardsParksGlobal{
+        flex-direction: row;
+    }
+}
